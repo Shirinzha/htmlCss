@@ -1,0 +1,63 @@
+.parent{
+    display: flex;
+
+    
+}
+
+.child{
+    width:25%;
+    height: 100vh;
+    background-position: center;
+    font-size: xx-large;
+    font-variant-position: unset;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(43, 41, 41);
+    text-shadow: slategray;
+    transition: 1s;
+    padding-top: 10px;
+
+
+}
+.child:hover{
+    width:70%;
+    color: rgb(134, 134, 134);
+
+}
+
+.child:nth-child(1){
+    background: url('starrk.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+.child:nth-child(2){
+    background: url('targaryen.jpg');
+    background-position: center;
+    background-size: cover;
+  
+
+    
+}
+
+.child:nth-child(3){
+    background: url('lannister.jpg');
+    background-position: center;
+    background-size: cover;
+  
+    
+}
+
+.child:nth-child(4){
+    background: url('baratheon.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.parent:hover .child:not(:hover){
+    color: rgb(14, 12, 12);
+}
